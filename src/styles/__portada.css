@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dancing+Script:wght@600&family=Rampart+One&display=swap');
+
+.portada{
+    margin:0px;
+    padding:0px;
+    background-image: url("../assets/portada-img/maderaOK.jpg");
+     margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    display:flex;
+    flex-direction: column;
+}   
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-weight: 400; */
+    /* font-size: 50px;    */
+}
+/* body{
+    display:flex;
+    flex-direction: column;
+} */
+.container{
+    display:flex;
+}
+/* ========PRESENTACIÓN================= */
+.presentacion{
+    display:flex;
+    flex-direction:column;
+    width: 58%;
+    padding:0% 7% 3% 7%;
+
+}
+/* ========SECTION================= */
+section{
+    /* border:1px solid black; */
+    display:flex;
+    width: 100%;
+    flex-direction:column;
+    padding:5%;
+}
+a{  font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+/* ===============SCRABBLE=================== */
+/* .scrabble{
+    padding-right: 0px;
+    padding-left: 0px;
+} */
+.ficha{
+    background-color:rgb(233, 223, 190);
+    width: 60px;
+    height: 60px;
+    /* margin:10px; */
+    font-size: 50px;
+    border-radius:5px;
+    text-align: center;
+}
+.ficha p{
+    width: 95%;
+    height: 95%;
+ color:rgb(70, 68, 68);
+ font-size: 47px;
+ padding: 0px 0px;
+ position:relative;
+}
+.ficha p .numero{
+    font-size: 12px;
+    position:absolute;
+    top:43px;
+ 
+}
+.sombra{
+    /* display:inline-block; */
+    background-color:rgb(204, 190, 151);
+    width: 63px;
+    height: 63px;
+    margin:3px;
+    border-radius:5px; 
+    box-shadow: 1px 3px 3px rgb(54, 53, 53);
+}
+.flor{
+    width: 80%;
+    /* border:1px solid black; */
+    display: flex;
+
+}
+.flor .r{
+    transform: rotate(15deg);
+}
+
+.cadelli{
+    /* display:inline-block; */
+    width: 100%;
+    /* border:1px solid black; */
+    display: flex;
+    margin-top:20px;
+}
+.flor .sombra:hover{
+    transform: rotate(15deg);
+}
+
+.cadelli .sombra:hover{
+    transform: rotate(-15deg);
+}
+ /* ======== RECORTES ================= */
+section.recortes{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    width: 100%;
+}
+
+.fotoPerfil{
+    width: 35%;
+    display:inline-block;
+    /* border:1px solid red; */
+    transform: rotate(5deg);
+    z-index:100;   
+}
+.fotoPerfil img{
+    width: 100%;
+}
+.frontend {
+    display:flex;
+    /* border:1px solid red; */
+    width: 50%;
+    transform: rotate(-3deg);
+    position:relative;
+    right:20px;
+}
+.frontend img{
+    width: 100%;
+}
+.caba {
+    display:flex;
+    /* border:1px solid red; */
+    width: 40%;
+    transform: rotate(-15deg);
+}
+.caba img{
+    width: 100%;
+}
+.florReal{
+    display:flex;
+    width: 10%;
+    /* border:1px solid red; */
+    align-items: end;
+    z-index:50;
+}
+.florReal img{
+    width: 100%;
+}
+/* ======== TEXTO ================= */
+.texto{
+    text-align: center;
+    background-color: rgb(233, 223, 190);
+    /* padding: 14px; */
+    padding: 0px 10px 15px 10px;
+    /* font-weight: 800; */
+    box-shadow: 1px 3px 3px rgb(54, 53, 53);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.texto div{
+    display:flex;
+    justify-content: center;
+}
+.texto .contacto{
+    flex-direction: column;
+    padding-bottom:10px;
+}
+
+
+.texto p{
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 22px;
+    color:rgb(70, 68, 68);
+    padding: 0px 0px;
+    width: 100%;
+    /* position:relative;
+    bottom:5px; */
+}
+.texto .clip img{
+    width: 8%;
+    align-self: end;
+    transform: rotate(-50deg);
+    position:relative;
+    left: 45%;
+    position:relative;
+    bottom:5px;
+}
+.texto .tecnologias{
+    color:rgb(70, 68, 68);
+    width: 100%;
+    display: flex;
+    /* border:1px solid red; */
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10px 0px 10px;
+}
+.texto .tecnologias i{
+    font-size: 30px;
+}
+.texto .tecnologias img{
+  /* border:1px solid red; */
+  width: 5%;
+  border-radius: 5px;
+}
+
+ /* ======== NAV ================= */
+ nav{
+    /* border:1px solid red; */
+    display:flex;
+    width: 40%;
+    margin-top: 2%;
+    justify-content: center;
+}
+nav ul{
+    width: 60%;
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(233, 223, 190);
+    border-left:rgb(204, 190, 151) solid 5px;
+    padding:10px 0px 20px 10px;
+    box-shadow: 1px 3px 3px rgb(54, 53, 53);
+  
+}
+nav ul li{
+    list-style: none;
+    margin: 10px;
+    width: 100%;
+    border-radius:3px;
+    box-shadow: 1px 3px 3px rgb(54, 53, 53);
+    text-align: end;
+    padding-right: 20px;
+}
+nav ul li:hover{
+     transform: scale(1.05);
+}
+nav ul li a{
+    width: 100%;
+}
+.rosa{
+    background-color:#f85ce0;
+    border-left: 30px solid #cf52bd;
+}
+.celeste{
+    background-color:#5a9ff2;
+    border-left: 30px solid #5188cc;
+}
+.amarillo{
+    background-color:#f4e75a;
+    border-left: 30px solid #d6cb55;
+}
+.verde{
+    background-color:#58edbe;
+    border-left: 30px solid #4ec59f;
+}
+.violeta{
+    background-color:#cc7bc0;
+    border-left: 30px solid #a06397;
+}
+footer{
+     background-color: #fbd3d3;
+    position:sticky;
+    bottom:0px; 
+}
+footer .contacto{  
+    box-shadow: -1px -1px 3px rgb(54, 53, 53);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+footer .contacto .iconos{ 
+  align-items: center;
+  font-size: 0px;
+  padding-right: 30px;
+}
+footer .contacto p{ 
+    color:rgb(70, 68, 68);
+    font-size: 18px;
+    padding-left: 30px;
+}
+footer .contacto i{ 
+    color:rgb(70, 68, 68);
+    font-size: 26px;
+    padding:10px;
+}
+footer .contacto i:hover{
+    transform: scale(1.1);
+}
+
+/* ------------------------------- MEDIA 1024 ------------------------------- */
+@media (max-width: 1024px){
+    body{
+        /* background-color: green; */
+    }
+    
+    nav ul{
+        width: 70%;
+        padding:0px;
+        position: relative;
+        left:30px;
+    }
+ 
+}
+
+
+/* -------------------------------- MEDIA 768 ------------------------------- */
+@media (max-width: 768px){
+    body{
+        /* background-color: red; */
+        padding-left:20px;
+    }  
+    body .presentacion{
+        width: 55%;
+        /* border:1px solid green; */
+        padding:0px;
+    }
+    body .presentacion section{
+        width: 100%;
+        /* border:1px solid green; */
+        padding-left:0px;
+    }
+    body .presentacion .scrabble{
+        /* border:1px solid violet; */
+        width: 200%;
+    } 
+    body .presentacion .recortes{
+        width: 90%;
+        flex-direction: column-reverse;
+    }
+    .frontend{
+        position:relative;
+        bottom: 5%;
+    }
+    .caba{
+        position:relative;
+        bottom: 10%;
+    }
+    body .presentacion .texto{
+        /* border:1px solid violet; */
+        width: 80%;
+    }
+    
+    nav{
+        padding-top:200px;
+        /* border:1px solid black; */
+        /* width: 80%; */
+        position:relative;
+        right: 15%;
+    }
+    nav ul{
+        width: 100%; 
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+
+    .fotoPerfil{
+        width: 50%;
+    }
+}
+
+
+/* -------------------------------- MEDIA 480 ------------------------------- */
+@media (max-width: 480px) {
+    body{
+        /* background-color: violet; */
+        padding:0px;
+    }
+    
+
+    body .presentacion .scrabble {
+        /* border: 1px solid violet; */
+        width: 100%;
+    }
+    section{
+        width: 45%;
+        display: flex;
+        flex-direction: row;
+        padding:5px;
+    }
+    .flor, .cadelli{
+        flex-direction: column;
+        /* border: 1px solid green; */
+        width: 45%;
+        margin: 0px;
+        padding:10px;
+    }
+    .recortes .caba{
+      
+        display:none;
+    }
+    .recortes .frontend{  
+        position:relative;
+        bottom:200px;
+        right: 40px;
+        width: 40%;
+    }
+    .recortes .fotoPerfil{  
+        position:relative;
+        bottom:200px;
+        right: 40px;
+        width: 40%;
+    }
+    
+    .texto{
+        display:none;
+    }
+    .container{
+        /* border:1px solid red; */
+        justify-content: space-between;
+        padding:0px;
+    }
+    nav{
+        width: 40%;
+        padding-top:0px;
+    }
+   
+    nav ul {
+        padding:0px;
+        position:relative;
+        left: 25px;
+    }
+    nav ul li{
+        width: 105%;
+        margin-left: 0px;
+        height: 7%;
+        margin: 10px 0px 10px 10px;
+    }
+    nav ul li a{
+        font-size: 0.2rem;
+        /* border: 1px solid green; */
+        position:relative;
+        bottom: 20px;
+        
+    }
+    footer .contacto p{
+        font-size: 14px;
+    }
+    footer .contacto .iconos i {
+        font-size: 20px;
+    }
+   
+}
