@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from "react-router-3";
 
 const Nav = ({props}) => {
 return (
         <nav>
             <ul>
-                <li class="rosa"><a href="../cv/Cv">Curriculum Vitae</a></li>
+                <li class="rosa"><Link to="/cv">Curriculum Vitae</Link></li>
                 <li class="celeste"><a href="./super-forms">Formularios</a></li>
                 <li class="amarillo"><a href="./animaciones/">Animacion CSS</a></li>
                 <li class="verde"><a href="./turismo">Responsive</a></li>
@@ -14,6 +15,19 @@ return (
             </ul>
 
         </nav>
+        //   <nav>
+        //   <ul>
+        //     <li>
+        //       <Link to="/africa">África</Link>
+        //     </li>
+        //     <li>
+        //       <Link to="/america">América</Link>
+        //     </li>
+        //     <li>Asia</li>
+        //     <li>Europa</li>
+        //     <li>Oceania</li>
+        //   </ul>
+        // </nav>
 )
 }
 
