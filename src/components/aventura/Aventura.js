@@ -3,6 +3,7 @@ import data from "./data.json";
 import Historia from "./Historia";
 import Botonera from "./Botonera";
 import Recordatorio from "./Recordatorio";
+import aventura from "../../styles/__aventura.css";
 
 
 

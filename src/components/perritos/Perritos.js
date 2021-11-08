@@ -3,7 +3,7 @@ import Header from "./Header.jsx";
 import Botonera from "./Botonera.jsx";
 import ListadoPerritos from "./ListadoPerritos.jsx";
 import data from "./data.json";
-
+import perritos from "../../styles/__perritos.css";
 
 
 class Perritos extends React.Component {

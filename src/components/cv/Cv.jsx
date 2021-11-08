@@ -1,5 +1,6 @@
 import React from 'react'
 import perfil from '../../assets/cv-img/florCadelli.jpg';
+import cv from "../../styles/__cv.css";
 
 
 const Cv = ({props}) => {
