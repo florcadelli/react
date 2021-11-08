@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Portada from "../components/portada/Portada";
 import Cv from "../components/cv/Cv";
 import Aventura from "../components/aventura/Aventura";
+import Perritos from "../components/perritos/Perritos";
 
 import { Route, Switch} from "react-router-dom";
 
@@ -13,6 +14,7 @@ const App = ({ props }) => {
         <Route exact path="/"> <Portada /> </Route>
         <Route path="/cv"> <Cv /> </Route>
         <Route path="/aventura"> <Aventura /> </Route>
+        <Route path="/perritos"> <Perritos /> </Route>
       </Switch>
     </div>
   );

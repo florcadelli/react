@@ -1,0 +1,100 @@
+[
+  {
+    "id": "1",
+    "img": "pequenios/caniche-toy.png",
+    "nombre": "Caniche Toy",
+    "tamanio":"Pequeño"
+  },
+  {
+    "id": "2",
+    "img": "pequenios/bulldog-frances.jpg",
+    "nombre": "Bulldog Frances",
+    "tamanio":"Pequeño"
+  },
+  {
+    "id": "3",
+    "img": "pequenios/pug.jpg",
+    "nombre": "Pug",
+    "tamanio":"Pequeño"
+  },
+  {
+    "id": "4",
+    "img": "pequenios/maltes.jpg",
+    "nombre": "Maltes",
+    "tamanio":"Pequeño"
+  },
+  {
+    "id": "5",
+    "img": "pequenios/salchicha.jpg",
+    "nombre": "Salchicha",
+    "tamanio":"Pequeño"
+  },
+  {
+    "id": "6",
+    "img": "pequenios/chihuahua.jpg",
+    "nombre": "Chihuahua",
+    "tamanio":"Pequeño"
+  },
+  {
+    "id": "7",
+    "img": "medianos/basset.jpg",
+    "nombre": "Basset",
+    "tamanio":"Mediano"
+  },
+  {
+    "id": "8",
+    "img": "medianos/beagle.jpg",
+    "nombre": "Bagle",
+    "tamanio":"Mediano"
+  },
+  {
+    "id": "9",
+    "img": "medianos/border-collie.jpg",
+    "nombre": "Border Collie",
+    "tamanio":"Mediano"
+  },
+  {
+    "id": "10",
+    "img": "medianos/bull-terrier.jpg",
+    "nombre": "Bull Terrier",
+    "tamanio":"Mediano"
+  },
+  {
+    "id": "11",
+    "img": "medianos/terrier.jpg",
+    "nombre": "Terrier",
+    "tamanio":"Mediano"
+  },
+  {
+    "id": "12",
+    "img": "grandes/boxer.jpg",
+    "nombre": "Boxer",
+    "tamanio":"Grande"
+  },
+  {
+    "id": "13",
+    "img": "grandes/dalmata.jpg",
+    "nombre": "Dalmata",
+    "tamanio":"Grande"
+  },
+  {
+    "id": "14",
+    "img": "grandes/golden.jpg",
+    "nombre": "Golden",
+    "tamanio":"Grande"
+  },
+  {
+    "id": "15",
+    "img": "grandes/labrador.jpg",
+    "nombre": "Labrador",
+    "tamanio":"Grande"
+  },
+  {
+    "id": "16",
+    "img": "grandes/siberiano.jpg",
+    "nombre": "Siberiano",
+    "tamanio":"Grande"
+  }
+
+  
+]
