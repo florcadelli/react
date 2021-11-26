@@ -12,7 +12,7 @@ class Tarjeta extends React.Component {
         <img src={process.env.PUBLIC_URL + "/perritos-img/"+ img }  alt="caniche" />
        
         <div>
-          <h2>{nombre}</h2>
+          <h4>{nombre}</h4>
           <small>{tamanio}</small>
         </div>
       </div>

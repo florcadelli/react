@@ -2,6 +2,10 @@
 .aventura{
   background-color: black;
   color: white;
+  padding:20px;
+}
+.aventura h2{
+  font-size: 20px;
 }
 .layout {
   
@@ -21,21 +25,31 @@
   align-items: center;
   margin-bottom: 30px;
   color: white;
+  font-size: 26px;
 }
 
 .opciones {
   color: white;
+ 
 }
 
 .opcion {
   display: flex;
   gap: 15px;
   margin-bottom: 10px;
+
+}
+.opcion h3{
+  font-size: 20px;
+  padding-left: 10px;
 }
 
 .recordatorio {
   color: white;
   margin-top: 60px;
+}
+.recordatorio h3{
+  font-size: 18px;
 }
 
 .botones {

@@ -19,6 +19,7 @@
 }
 
 .main-perritos {
+    /* border:1px red solid; */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -28,12 +29,14 @@
 }
 
 main .listado-perritos {
+    border:1px red solid;
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
     align-content: flex-start;
     gap: 10px;
     padding: 15px;
+    background-color: #FAEEC7
     
 }
 
@@ -76,4 +79,19 @@ main .opciones-tamanio button.opcion:hover{
     /* box-shadow: 5px 5px  rgb(173, 172, 172) inset; */
     box-shadow: 1px 1px 1px rgb(221, 221, 221) inset;
 
+}
+/* -------------------------------- MEDIA 768 ------------------------------- */
+@media (max-width: 768px){
+    main .listado-perritos .perrito {
+        width: 49%;
+    }
+ 
+}
+
+/* -------------------------------- MEDIA 480 ------------------------------- */
+@media (max-width: 480px) {
+    main .listado-perritos .perrito {
+        width: 99%;
+    }
+   
 }

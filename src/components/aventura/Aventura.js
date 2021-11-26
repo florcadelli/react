@@ -31,7 +31,7 @@ class Aventura extends Component {
         opcionB: data[0].opciones.b,
       });
 
-    }, 1000);
+    }, 2000);
   }
 
   contador = 1;

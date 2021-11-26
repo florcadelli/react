@@ -7,7 +7,7 @@ class Recordatorio extends Component {
       <div className="recordatorio">
         <h3>Selección anterior: {ultimaEleccion}</h3>
 
-        <h4>Historial de opciones elegidas: </h4>
+        <h3>Historial de opciones elegidas: </h3>
         <ul>
           {historial.map((opcion, i) => (
             <li key={opcion + i}>{opcion}</li>
