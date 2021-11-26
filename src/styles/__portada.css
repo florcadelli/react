@@ -3,18 +3,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Rampart+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dancing+Script:wght@600&family=Rampart+One&display=swap');
 
+
 .portada{
     margin:0px;
     padding:0px;
-    background-image: url("../assets/portada-img/maderaOK.jpg");
-     margin:0px;
-    padding:0px;
+    background-image: url("../assets/portada-img/corcho.jpg");
+    /* background-image: url("../assets/portada-img/maderaOK.jpg"); */
+     /* margin:0px; */
+    /* padding:0px; */
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 50px;
-    display:flex;
-    flex-direction: column;
+    /* display:flex; */
+    /* flex-direction: column; */
+    height: 100vh;
+    line-height: 1.3;
+    
 }   
 *{
     margin:0px;
@@ -24,11 +29,8 @@
     /* font-weight: 400; */
     /* font-size: 50px;    */
 }
-/* body{
-    display:flex;
-    flex-direction: column;
-} */
-.container{
+
+.cont{
     display:flex;
 }
 /* ========PRESENTACIÓN================= */
@@ -40,7 +42,7 @@
 
 }
 /* ========SECTION================= */
-section{
+.scrabble{
     /* border:1px solid black; */
     display:flex;
     width: 100%;
@@ -191,8 +193,9 @@ section.recortes{
     font-weight: 700;
     font-size: 22px;
     color:rgb(70, 68, 68);
-    padding: 0px 0px;
+    padding: 10px 0px 0px 0px;
     width: 100%;
+    margin:0px;
     /* position:relative;
     bottom:5px; */
 }
@@ -230,8 +233,9 @@ section.recortes{
     width: 40%;
     margin-top: 2%;
     justify-content: center;
+    line-height:45px;
 }
-nav ul{
+nav .ul-portada{
     width: 60%;
     display:flex;
     flex-direction: column;
@@ -241,7 +245,7 @@ nav ul{
     box-shadow: 1px 3px 3px rgb(54, 53, 53);
   
 }
-nav ul li{
+nav ul .postit{
     list-style: none;
     margin: 10px;
     width: 100%;
@@ -250,11 +254,15 @@ nav ul li{
     text-align: end;
     padding-right: 20px;
 }
-nav ul li:hover{
+
+nav ul .postit:hover{
      transform: scale(1.05);
 }
-nav ul li a{
+nav ul .postit a{
     width: 100%;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
 }
 .rosa{
     background-color:#f85ce0;
@@ -278,8 +286,9 @@ nav ul li a{
 }
 footer{
      background-color: #fbd3d3;
-    position:sticky;
+    position:absolute;
     bottom:0px; 
+    width: 100vw;
 }
 footer .contacto{  
     box-shadow: -1px -1px 3px rgb(54, 53, 53);
@@ -298,6 +307,7 @@ footer .contacto p{
     color:rgb(70, 68, 68);
     font-size: 18px;
     padding-left: 30px;
+    padding-top:10px;
 }
 footer .contacto i{ 
     color:rgb(70, 68, 68);

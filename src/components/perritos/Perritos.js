@@ -37,9 +37,9 @@ handleClickTodos = () => {
   render() {
     console.log(this.state.perritos)
     return (
-      <div className="app">
+      <div className="app-perritos">
         <Header tamanio={this.state.tamanio}/>
-        <main>
+        <main className="main-perritos">
           <ListadoPerritos data={this.state.perritos}/>
           <Botonera 
            fnP={this.handleClickPequenio}

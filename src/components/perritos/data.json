@@ -88,12 +88,6 @@
     "img": "grandes/labrador.jpg",
     "nombre": "Labrador",
     "tamanio":"Grande"
-  },
-  {
-    "id": "16",
-    "img": "grandes/siberiano.jpg",
-    "nombre": "Siberiano",
-    "tamanio":"Grande"
   }
 
   

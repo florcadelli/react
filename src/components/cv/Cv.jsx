@@ -7,7 +7,7 @@ const Cv = ({props}) => {
 return (
 <div class="cv">
 
-    <div class="container">
+    <div class="cv-container">
       <div class="sidebar">
         <div class="foto-perfil">
           <img src={perfil} alt="Perfil" />

@@ -13,7 +13,7 @@ class Botonera extends Component {
 
                 <div className="opcion">
                     <button value="B" className="botones" onClick={fn}> B </button>
-                    <h2>{textoB} </h2>
+                    <h3>{textoB} </h3>
                 </div>
 
             </div>
