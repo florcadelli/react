@@ -2,10 +2,10 @@ import React from 'react'
 
 const Footer = ({props}) => {
 return (
-    <footer>
-    <div class="contacto">
+    <footer className="footer-portada">
+    <div className="contacto">
         <p>florcadelli@gmail.com</p>
-        <div class="iconos">
+        <div className="iconos">
             <a href="https://www.linkedin.com/in/florencia-cadelli-6b28aa220/"><i class="fab fa-linkedin-in"></i></a>
             <a href="https://github.com/florcadelli"><i class="fab fa-github"></i></a>
             <a href="https://www.instagram.com/florcadelli"><i class="fab fa-instagram"></i></a>

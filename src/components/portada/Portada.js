@@ -10,7 +10,7 @@ return (
 
    <div className="portada">
 
-       <div class="cont">
+       <div className="cont">
           <Main/>
           <Nav/>
        </div>
