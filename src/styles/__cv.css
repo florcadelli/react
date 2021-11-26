@@ -175,3 +175,102 @@
     color:#706e6e;
     
 }
+/* -------------------------------- MEDIA 768 ------------------------------- */
+@media (max-width: 768px){
+    .cv{
+        font-size: 0.8rem;
+    }
+    .cv .cv-container h4{
+        font-size: 1rem; 
+    }
+    .cv .sidebar{
+        padding:10px;
+        /* border:1px solid red; */
+    }
+    .cv .cv-container header h1{
+        color:#eaaaa0;
+        font-size: 26px;
+        /* border:1px solid red; */
+    }
+    .cv .cv-container header .titulos{
+        width:90%;  
+    }
+    .cv .cv-container header .titulos h3{
+        font-size: 1rem;
+    }
+    /* main{
+        background-color: red;
+    }  */
+
+    .cv .cv-container main section{
+        margin:0px;
+    }
+    footer div i{
+        font-size: 1.2rem;
+    }
+    .cv a{
+        font-size: 0.7rem;
+    }
+}
+/* -------------------------------- MEDIA 540 ------------------------------- */
+@media (max-width: 540px){
+    .cv .cv-container header .titulos h3{
+        font-size: 0.8rem;
+    }
+
+}
+/* -------------------------------- MEDIA 480 ------------------------------- */
+@media (max-width: 480px) {
+    .cv{
+        font-size: 0.5rem;
+    }
+    /* main{
+        background-color: violet;   
+    } */
+    .cv .cv-container main section{
+        padding:10px;
+    }
+    
+    .cv .cv-container h4{
+        font-size: 0.8rem; 
+    }
+    .cv .sidebar{
+        padding:5px;
+        /* border:1px solid red; */
+    }
+    .cv .cv-container header h1{
+        font-size: 1rem;
+        /* border:1px solid red; */
+    }
+    .cv .cv-container header .titulos{
+        width:90%;  
+    }
+    .cv .cv-container header .titulos h3{
+        font-size: 0.6rem;
+    }
+    .cv .cv-container main article h5 {
+        font-size: 0.8rem;
+    }
+    .cv .cv-container main article h6 {
+        font-size: 0.6rem;
+    }
+    .cv .cv-container header .titulos .tecnologias i{
+    
+        font-size: 0.8rem;
+        padding-bottom: 5px;
+    }
+    .cv .cv-container header .titulos .tecnologias img{
+        width:5%;
+        padding-bottom: 5px;;
+    
+    }
+    footer div i{
+        font-size: 0.8rem;
+    }
+    .cv a{
+        font-size: 0.4rem;
+    }
+ 
+
+    
+}

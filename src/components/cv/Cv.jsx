@@ -5,11 +5,11 @@ import cv from "../../styles/__cv.css";
 
 const Cv = ({props}) => {
 return (
-<div class="cv">
+<div className="cv">
 
-    <div class="cv-container">
-      <div class="sidebar">
-        <div class="foto-perfil">
+    <div className="cv-container">
+      <div className="sidebar">
+        <div className="foto-perfil">
           <img src={perfil} alt="Perfil" />
         </div>
 
@@ -54,19 +54,19 @@ return (
         </section>
       </div>
 
-      <div class="principal">
+      <div className="principal">
         <header>
           <h1>FLORENCIA CADELLI</h1>
-          <div class="titulos">
+          <div className="titulos">
             <h3>FRONT END DEVELOPER - MAQUETADORA WEB</h3>
             <h3>ARTES VISUALES</h3>
-            <div class="tecnologias">
-              <i class="fas fa-code"></i>
-              <i class="fab fa-css3-alt"></i>
-              <i class="fab fa-js-square"></i>
-              <i class="fab fa-react"></i>
-              <i class="fab fa-node-js"></i>
-              <i class="fab fa-java"></i>
+            <div className="tecnologias">
+              <i className="fas fa-code"></i>
+              <i className="fab fa-css3-alt"></i>
+              <i className="fab fa-js-square"></i>
+              <i className="fab fa-react"></i>
+              <i className="fab fa-node-js"></i>
+              <i className="fab fa-java"></i>
               {/* <img class="mysql" src="MySQL-logo.png" alt="mysql"/> */}
               
               {/* <!-- <img class="vs" src="visual.png" alt="vs"> --> */}
@@ -75,14 +75,28 @@ return (
               
               {/* <!-- <i class="fab fa-figma"></i>  --> */}
               {/* <!-- <img class="agile" src="agile.png" alt="agile">    --> */}
-              <i class="fab fa-github"></i>
+              <i className="fab fa-github"></i>
             </div>
           </div>
         </header>
        
         <main>
-            <section class="experiencia">
+            <section className="experiencia">
                 <h4>EXPERIENCIA PROFESIONAL</h4>
+                <article>
+                  <h5>Desarolladora Front End</h5>
+                  <h6>Proyectos autónomos en proceso. | Marzo 2021 - Actualidad </h6>
+                  <ul>
+                    <li>"Booking" e-commerce colaborativo. En proceso. </li>
+                    <li>"React" porfolio con React. En proceso. <a href="https://florcadelli.github.io/react/">florcadelli.github.io/react</a> </li>
+                    <li>"Clínica Odontológica". App para registro de turnos, pacientes y
+                      odontólogos. Back desarrollado en Java, POO, Springboot, Hibernate,H2.</li>
+                    <li>"Astrología". Proyecto de diseño UX/UI. Figma </li>
+                    <li>"JS" ejercitaciones en JavaScript.</li>
+                    <li>"DB" ejercitaciones en MySQL.</li>
+          
+                  </ul>    
+               </article>
                    <article>
                       <h5>Desarolladora Web Full Stack</h5>
                       <h6>Aplicación web ecommerce para la marca "Vistete de poder". | Septiembre 2020 - Marzo 2021 </h6>
