@@ -265,6 +265,14 @@ nav ul .postit a{
     background-color:#cc7bc0;
     border-left: 30px solid #a06397;
 }
+
+nav ul .descripcion{
+    font-size: 12px;
+    line-height: 100%;
+}
+nav ul .corto{
+ display:none;
+}
 .footer-portada{
      background-color: #fbd3d3;
     position:fixed;
@@ -334,7 +342,6 @@ footer .contacto i:hover{
     }
     nav .ul-portada li a{
         font-size: 16px;
-        /* color:red; */
     }
     .texto{
         margin-bottom: 25px;
@@ -431,7 +438,14 @@ footer .contacto i:hover{
         padding:0px;
         position:relative;
         left: 20%;
-    }  
+    } 
+     nav ul .largo{
+        display:none;
+       }
+       nav ul .corto{
+        display:block;
+        margin:0px;
+       }
     footer .contacto p{
         font-size: 14px;
     }
