@@ -118,9 +118,9 @@ section.slider article img{
 section.slider article img:hover{
     box-shadow: inset 1px 3px 5px grey;
 }
-.fa-shopping-bag:before, .fa-user:before{
+/* .fa-shopping-bag:before, .fa-user:before{
     font-size: 26px;
-}
+} */
 .fa-shipping-fast{
     padding:0px 5px
 }

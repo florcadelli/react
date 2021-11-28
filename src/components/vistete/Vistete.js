@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from "./Header";
 import Main from "./Main";
+import Footer from "./Footer";
 import gralVistete from "../../styles/__gralVistete.css";
 
 const Vistete = ({props}) => {
@@ -9,8 +10,7 @@ return (
 <div class="container-fluid">
    <Header/>
    <Main/>
-
-   {/* <%-include("./partials/footer")%> */}
+   <Footer/>
 </div>
 )
 }

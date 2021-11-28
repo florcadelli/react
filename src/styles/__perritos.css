@@ -29,7 +29,7 @@
 }
 
 main .listado-perritos {
-    border:1px red solid;
+    /* border:1px red solid; */
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;

@@ -267,8 +267,6 @@ header .header2 .buscadores .ingreso .desplegableUsuarios li {
 
 /*======RESPONSIVE======*/
 
-/*=======TABLET header========*/
-
 @media (max-width: 1024px) {
   /*header 1*/
   header .header1 .envios {
@@ -284,10 +282,7 @@ header .header2 .buscadores .ingreso .desplegableUsuarios li {
   /*header 2*/
   header .header2 .logo {
     width: 12%;
-  } /*
-     header .header2 .hamburguesa {
-        display: block;
-      }*/
+  } 
   header .header2 .menuHorizontal {
     text-align: center;
   }
@@ -296,13 +291,9 @@ header .header2 .buscadores .ingreso .desplegableUsuarios li {
     font-size: 0.7rem;
   }
   header .header2 .menuHorizontal .palabras ul {
-    /* margin-left: 0px;*/
     padding: 5px;
   }
 
-  /*header .header2 .buscadores{
-        margin-top:1.5%;
-    }*/
 
   header .header2 .buscadores div {
     /*background-color: violet;*/
@@ -329,9 +320,7 @@ header .header2 .buscadores .ingreso .desplegableUsuarios li {
 }
 
 
-/*=======CELU HORIZONTAL header========*/
-
-@media (max-width: 750px) {
+@media (max-width: 768px) {
   /*header 1*/
   header .header1 .envios {
     width: 50%;
@@ -353,22 +342,25 @@ header .header2 .buscadores .ingreso .desplegableUsuarios li {
   header .header2 .logo {
     width: 15%;
   }
+ 
 
   /*===HAMBURGUESA====*/
   header .header2 nav {
     width: 25%;
+    padding: 0px;
   }
   header .header2 .hamburguesa {
-    display: block;
+    display: block;   
   }
-
   header .header2 .menuHorizontal {
     display: none;
+  
   }
 
   header .header2 .hamburguesa .desplegable2 {
     display: none;
   }
+
   header .header2 .hamburguesa i {
     display: flex;
   }
@@ -376,7 +368,7 @@ header .header2 .buscadores .ingreso .desplegableUsuarios li {
   header .header2 .hamburguesa i:hover .desplegable2 {
     display: block;
     position: absolute;
-    width: 55%;
+    width: 100%;
     background-color: #f5f4f3;
     border-radius: 5px;
     box-shadow: 1px 3px 5px grey;
@@ -389,6 +381,7 @@ header .header2 .buscadores .ingreso .desplegableUsuarios li {
     text-decoration: none;
     font-family: "Josefin Sans", sans-serif;
     color: #4c4c49;
+    font-size: 0.9rem;
   }
   header .header2 .hamburguesa .desplegable2 a:hover {
     color: grey;
@@ -417,17 +410,14 @@ header .header2 .buscadores .ingreso .desplegableUsuarios li {
     margin-top:75px;
     margin-left: -50%;
     width: 260%;
+    font-size: 0.9rem;
     /* background-color:violet; */
 
   }
-  div.buscadores i{
+  header .header2 .buscadores i{
     /* color:red; */
-    font-size: 0.8rem;
+    font-size:1.2rem;
   }
- 
- 
- 
-
 }
 /*=======CELULAR header========*/
 

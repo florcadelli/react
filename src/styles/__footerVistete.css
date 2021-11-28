@@ -1,0 +1,121 @@
+.footer-vistete{
+    background-image:url("../assets/vistete-img/zocaloAlta.jpg");
+    display:flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    width: 100%;
+    font-family : 'Josefin Sans', sans-serif; 
+    font-weight: 500; 
+    color:#dfdfe6;
+    font-size: 1rem; 
+    /* border: 1px solid red; */
+}
+
+.Menu-del-footer{       
+/* border: 1px solid red; */
+padding-bottom: 20px;
+width: 100%;
+display:flex;
+justify-content: space-around;
+align-items: center;
+}
+.Menu-del-footer a{
+    text-decoration: none;   
+}
+
+.Menu-del-footer div{
+display:inline-block;
+box-sizing: border-box; 
+margin-top: 2px;
+/* border: 1px solid red; */
+
+}
+
+.Menu-del-footer a {
+color:#dfdfe6;
+/* border: 1px solid red; */
+}
+.info{
+    /* border:1px solid green; */
+    flex-direction: column;
+    width: 60%;
+    margin-top: 2%;
+} 
+
+  .infoContacto, .infoCompra, .infoCambio, .infoNosotros {
+   display: flex;
+   /* border:violet 1px solid; */
+   display:none;
+   font-size:1rem;
+   padding:20px;
+   background-image:url("../assets/vistete-img/zocaloAlta.jpg");
+   border-radius: 5px;
+   position: absolute;
+   bottom: -285px;
+   left: 50px;
+   width:90%;
+   /* display:block; */
+}
+
+  .botonContacto:hover > article{
+    display: block;
+  }
+  .botonCompra:hover > article{
+    display: block;
+  }
+  .botonCambio:hover > article{
+    display: block;
+  }
+  .botonNosotros:hover > article{
+    display: block;
+  }
+ 
+ /*=======TABLET header========*/
+
+ @media (max-width: 768px) {
+    /* main .mainHome{
+    background-color: violet;
+    }   */
+    .info{
+        width:100%
+    }
+    .info .Menu-del-footer {
+        font-size: 0.8rem;
+        position:relative;
+    }
+    .info .Menu-del-footer article {
+        position: absolute;
+        bottom: 80px; 
+        left: 25px;
+        font-size: 0.8rem;       
+    }
+}
+
+@media (max-width: 480px) {
+    /* main .mainHome{
+   background-color: green;
+   } */
+ 
+   .info{
+    width: 100%;
+    /* border: 1px solid green; */
+    display:flex;
+    align-items: center;
+   }
+
+.info .Menu-del-footer {
+    display:flex;
+    /* border: 1px solid green; */
+    flex-direction: column; 
+    font-size: 0.7rem;
+    padding: 0px 0px 10px 0px;
+
+}
+.info .Menu-del-footer article{
+    position: absolute;
+    bottom: 130px; 
+    left: 20px;
+}
+
+
+}
