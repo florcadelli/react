@@ -1,8 +1,8 @@
-body {
+/* body {
   background-color: black;
-}
+} */
 
-.container {
+.container-colores {
   background-color: black;
   width: 100%;
   display: flex;
@@ -10,6 +10,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+ height: 100vh;
 
 }
 

@@ -39,7 +39,7 @@ state = {
   
   render() {
     return (
-      <div className="container">
+      <div className="container-colores">
         <div className="panel">
           {this.colors.map(color => <div key={color} className={color}>{color}</div>)}
         </div>
