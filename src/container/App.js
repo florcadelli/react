@@ -4,6 +4,8 @@ import Cv from "../components/cv/Cv";
 import Aventura from "../components/aventura/Aventura";
 import Perritos from "../components/perritos/Perritos";
 import Vistete from "../components/vistete/Vistete";
+// import Dashboard from "../components/dashboard/Dashboard";
+import Colores from "../components/colores/Colores";
 
 import { Route, Switch} from "react-router-dom";
 
@@ -17,6 +19,8 @@ const App = ({ props }) => {
         <Route path="/aventura"> <Aventura /> </Route>
         <Route path="/perritos"> <Perritos /> </Route>
         <Route path="/e-commerce"> <Vistete /> </Route>
+        <Route path="/colores"> <Colores /> </Route>
+        {/* <Route path="/dashboard"> <Dashboard /> </Route> */}
       </Switch>
     </div>
   );
